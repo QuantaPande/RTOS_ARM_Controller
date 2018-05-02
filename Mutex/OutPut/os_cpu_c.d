@@ -1,0 +1,16 @@
+.\output\os_cpu_c.o: ARM\Os_cpu_c.c
+.\output\os_cpu_c.o: ARM\..\APP\config.h
+.\output\os_cpu_c.o: ARM\..\APP\Includes.h
+.\output\os_cpu_c.o: ARM\..\APP\..\uCosii\os_cpu.h
+.\output\os_cpu_c.o: ARM\..\APP\os_cfg.h
+.\output\os_cpu_c.o: ARM\..\APP\..\uCosii\ucos_ii.h
+.\output\os_cpu_c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\os_cpu_c.o: ARM\..\APP\LPC214x.h
+.\output\os_cpu_c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\os_cpu_c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\output\os_cpu_c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\os_cpu_c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\setjmp.h
+.\output\os_cpu_c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_misc.h
+.\output\os_cpu_c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\os_cpu_c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\os_cpu_c.o: ARM\..\APP\target.h

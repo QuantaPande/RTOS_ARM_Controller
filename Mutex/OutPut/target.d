@@ -1,0 +1,16 @@
+.\output\target.o: APP\target.c
+.\output\target.o: APP\config.h
+.\output\target.o: APP\Includes.h
+.\output\target.o: APP\..\uCosii\os_cpu.h
+.\output\target.o: APP\os_cfg.h
+.\output\target.o: APP\..\uCosii\ucos_ii.h
+.\output\target.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\target.o: APP\LPC214x.h
+.\output\target.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\target.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\output\target.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\target.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\setjmp.h
+.\output\target.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_misc.h
+.\output\target.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\target.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\target.o: APP\target.h
