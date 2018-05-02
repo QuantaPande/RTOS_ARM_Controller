@@ -1,0 +1,5 @@
+Dependencies for Project 'test_lcd', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x531FDDD6)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 517"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\lcd.c)(0x57DF014B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x531FDDEE)
+I (lcd.h)(0x57DF012D)
