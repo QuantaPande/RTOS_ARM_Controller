@@ -1,0 +1,20 @@
+--cpu ARM7TDMI
+".\output\target.o"
+".\output\main.o"
+".\output\irq.o"
+".\output\startup.o"
+".\output\os_core.o"
+".\output\os_flag.o"
+".\output\os_mbox.o"
+".\output\os_mem.o"
+".\output\os_mutex.o"
+".\output\os_q.o"
+".\output\os_sem.o"
+".\output\os_task.o"
+".\output\os_time.o"
+".\output\os_cpu_c.o"
+".\output\os_cpu_a.o"
+--strict --scatter ".\APP\mem_a.scf"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\OutPut\LPC214X_uCosii.map" -o .\OutPut\LPC214X_uCosii.axf
