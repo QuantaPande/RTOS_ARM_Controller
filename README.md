@@ -5,3 +5,4 @@ Proof-of-idea implementation for a number of multi-tasking and OS control routin
 2. Mailbox Queuing
 3. Multitasking
 4. Semaphore
+5. Mutex
