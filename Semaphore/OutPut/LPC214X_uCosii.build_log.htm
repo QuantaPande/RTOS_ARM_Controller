@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Tanmayan Pande, Pune Institute of Computer Technology, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARM.DLL V5.17
+Dialog DLL:      DARMP.DLL V1.51
+Target DLL:      UL2ARM.DLL V1.74.7.0
+Dialog DLL:      TARMP.DLL V1.51
+ 
+<h2>Project:</h2>
+D:\College\BE 1st Sem\ES&RTOS_StudyData_AY16_17\RTOS Programs\Semaphore\LPC214X_uCosii.uvproj
+Project File Date:  09/14/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling IRQ.s...
+APP\IRQ.s(79): warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+APP\IRQ.s:     at line 44 in macro HANDLER in 'APP\IRQ.s'
+APP\IRQ.s: 
+assembling Startup.s...
+APP\Startup.s(114): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+APP\Startup.s(127): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+compiling OS_MBOX.C...
+compiling target.c...
+compiling main.c...
+C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h(86): warning:  #47-D: incompatible redefinition of macro "MEMMAP" (declared at line 11 of "APP\LPC214x.h")
+  #define MEMMAP         (*((volatile unsigned char *) 0xE01FC040))
+C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h(169): warning:  #47-D: incompatible redefinition of macro "U0FDR" (declared at line 212 of "APP\LPC214x.h")
+  #define U0FDR          (*((volatile unsigned char *) 0xE000C028))
+C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h(184): warning:  #47-D: incompatible redefinition of macro "U1FDR" (declared at line 230 of "APP\LPC214x.h")
+  #define U1FDR          (*((volatile unsigned char *) 0xE0010028))
+APP\main.c: 3 warnings, 0 errors
+compiling OS_CORE.C...
+compiling OS_FLAG.C...
+compiling OS_MEM.C...
+compiling OS_MUTEX.C...
+compiling OS_SEM.C...
+compiling OS_Q.C...
+assembling Os_cpu_a.s...
+ARM\Os_cpu_a.s(65): warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+compiling OS_TIME.C...
+compiling Os_cpu_c.c...
+compiling OS_TASK.C...
+linking...
+Program Size: Code=16992 RO-data=296 RW-data=76 ZI-data=6604  
+FromELF: creating hex file...
+".\OutPut\LPC214X_uCosii.axf" - 0 Error(s), 7 Warning(s).
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
