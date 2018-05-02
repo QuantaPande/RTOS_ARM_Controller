@@ -1,0 +1,108 @@
+Dependencies for Project 'LPC214X_uCosii', Target 'Target 1': (DO NOT MODIFY !)
+F (.\APP\target.c)(0x5774D0EC)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\output\target.o --omf_browse .\output\target.crf --depend .\output\target.d)
+I (APP\config.h)(0x5774D1A6)
+I (APP\Includes.h)(0x504B13E4)
+I (APP\..\uCosii\os_cpu.h)(0x504B1468)
+I (APP\os_cfg.h)(0x4149B286)
+I (APP\..\uCosii\ucos_ii.h)(0x3C50712C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (APP\LPC214x.h)(0x504B14FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x55DB4EA0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB4EA0)
+I (C:\Keil_v5\ARM\ARMCC\include\setjmp.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x55DB4EA0)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB4EA6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (APP\target.h)(0x504B1568)
+F (.\APP\main.c)(0x57DEF59C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (APP\config.h)(0x5774D1A6)
+I (APP\Includes.h)(0x504B13E4)
+I (APP\..\uCosii\os_cpu.h)(0x504B1468)
+I (APP\os_cfg.h)(0x4149B286)
+I (APP\..\uCosii\ucos_ii.h)(0x3C50712C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (APP\LPC214x.h)(0x504B14FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x55DB4EA0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB4EA0)
+I (C:\Keil_v5\ARM\ARMCC\include\setjmp.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x55DB4EA0)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB4EA6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (APP\target.h)(0x504B1568)
+I (APP\uart.h)(0x57DADCA7)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x531FDDEE)
+F (.\APP\IRQ.s)(0x504B1600)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 517"--list .\output\irq.lst --xref -o .\output\irq.o --depend .\output\irq.d)
+F (.\APP\Startup.s)(0x504B169C)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 517"--list .\output\startup.lst --xref -o .\output\startup.o --depend .\output\startup.d)
+F (.\uCosii\OS_CORE.C)(0x4486F634)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\output\os_core.o --omf_browse .\output\os_core.crf --depend .\output\os_core.d)
+I (uCosii\..\APP\includes.h)(0x504B13E4)
+I (uCosii\..\APP\..\uCosii\os_cpu.h)(0x504B1468)
+I (uCosii\..\APP\os_cfg.h)(0x4149B286)
+I (uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C50712C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+F (.\uCosii\OS_FLAG.C)(0x4486F656)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\output\os_flag.o --omf_browse .\output\os_flag.crf --depend .\output\os_flag.d)
+I (uCosii\..\APP\includes.h)(0x504B13E4)
+I (uCosii\..\APP\..\uCosii\os_cpu.h)(0x504B1468)
+I (uCosii\..\APP\os_cfg.h)(0x4149B286)
+I (uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C50712C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+F (.\uCosii\OS_MBOX.C)(0x4486F61C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\output\os_mbox.o --omf_browse .\output\os_mbox.crf --depend .\output\os_mbox.d)
+I (uCosii\..\APP\includes.h)(0x504B13E4)
+I (uCosii\..\APP\..\uCosii\os_cpu.h)(0x504B1468)
+I (uCosii\..\APP\os_cfg.h)(0x4149B286)
+I (uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C50712C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+F (.\uCosii\OS_MEM.C)(0x4486F656)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\output\os_mem.o --omf_browse .\output\os_mem.crf --depend .\output\os_mem.d)
+I (uCosii\..\APP\includes.h)(0x504B13E4)
+I (uCosii\..\APP\..\uCosii\os_cpu.h)(0x504B1468)
+I (uCosii\..\APP\os_cfg.h)(0x4149B286)
+I (uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C50712C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+F (.\uCosii\OS_MUTEX.C)(0x4486F656)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\output\os_mutex.o --omf_browse .\output\os_mutex.crf --depend .\output\os_mutex.d)
+I (uCosii\..\APP\includes.h)(0x504B13E4)
+I (uCosii\..\APP\..\uCosii\os_cpu.h)(0x504B1468)
+I (uCosii\..\APP\os_cfg.h)(0x4149B286)
+I (uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C50712C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+F (.\uCosii\OS_Q.C)(0x4486F656)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\output\os_q.o --omf_browse .\output\os_q.crf --depend .\output\os_q.d)
+I (uCosii\..\APP\includes.h)(0x504B13E4)
+I (uCosii\..\APP\..\uCosii\os_cpu.h)(0x504B1468)
+I (uCosii\..\APP\os_cfg.h)(0x4149B286)
+I (uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C50712C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+F (.\uCosii\OS_SEM.C)(0x4486F656)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\output\os_sem.o --omf_browse .\output\os_sem.crf --depend .\output\os_sem.d)
+I (uCosii\..\APP\includes.h)(0x504B13E4)
+I (uCosii\..\APP\..\uCosii\os_cpu.h)(0x504B1468)
+I (uCosii\..\APP\os_cfg.h)(0x4149B286)
+I (uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C50712C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+F (.\uCosii\OS_TASK.C)(0x4487E90E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\output\os_task.o --omf_browse .\output\os_task.crf --depend .\output\os_task.d)
+I (uCosii\..\APP\includes.h)(0x504B13E4)
+I (uCosii\..\APP\..\uCosii\os_cpu.h)(0x504B1468)
+I (uCosii\..\APP\os_cfg.h)(0x4149B286)
+I (uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C50712C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+F (.\uCosii\OS_TIME.C)(0x4486F634)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\output\os_time.o --omf_browse .\output\os_time.crf --depend .\output\os_time.d)
+I (uCosii\..\APP\includes.h)(0x504B13E4)
+I (uCosii\..\APP\..\uCosii\os_cpu.h)(0x504B1468)
+I (uCosii\..\APP\os_cfg.h)(0x4149B286)
+I (uCosii\..\APP\..\uCosii\ucos_ii.h)(0x3C50712C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+F (.\ARM\Os_cpu_c.c)(0x540A71CE)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="517"-o .\output\os_cpu_c.o --omf_browse .\output\os_cpu_c.crf --depend .\output\os_cpu_c.d)
+I (ARM\..\APP\config.h)(0x5774D1A6)
+I (ARM\..\APP\Includes.h)(0x504B13E4)
+I (ARM\..\APP\..\uCosii\os_cpu.h)(0x504B1468)
+I (ARM\..\APP\os_cfg.h)(0x4149B286)
+I (ARM\..\APP\..\uCosii\ucos_ii.h)(0x3C50712C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (ARM\..\APP\LPC214x.h)(0x504B14FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x55DB4EA0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB4EA0)
+I (C:\Keil_v5\ARM\ARMCC\include\setjmp.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x55DB4EA0)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DB4EA6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (ARM\..\APP\target.h)(0x504B1568)
+F (.\ARM\Os_cpu_a.s)(0x504B1850)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 517"--list .\output\os_cpu_a.lst --xref -o .\output\os_cpu_a.o --depend .\output\os_cpu_a.d)
